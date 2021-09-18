@@ -1,0 +1,146 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.top-ban {
+    background-image: url('Image/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+.flexible-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.flexible-container p {
+    text-align: justify;
+}
+
+p {
+    margin-bottom: 35px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 40px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, #FB6656, orange);
+    padding: 10px 40px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.img-area-1 {
+    display: block;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.img-area-2 {
+    display: block;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.dream-to-achieve {
+    background-image: url('Image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between
+}
+
+.dream-to-achieve p {
+    text-align: justify;
+}
+
+.dream-to-achieve-content {
+    padding-right: 150px;
+}
+
+
+/* Exp Section Style */
+
+.experience-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.left-experience h1,
+.right-experience h1 {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.left-experience,
+.right-experience {
+    width: 40%;
+    box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+    padding: 5px 20px 20px 20px;
+    border-radius: 5px;
+    margin: 0px 50px;
+}
+
+.left-experience {
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+    transition: all .5s;
+}
+
+.left-experience:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 30px 40px -25px orange;
+}
+
+.right-experience {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    transition: all .5s;
+}
+
+.right-experience:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 30px 40px -25px cyan;
+}
+
+.experience-section {
+    background-image: url('Image/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-header {
+    margin-left: 10px;
+}
+
+
+/* Footer style */
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
