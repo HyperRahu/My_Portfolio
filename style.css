@@ -82,7 +82,8 @@
     }
     
     .dream-to-achieve-content {
-        padding-right: 150px;
+        /* padding-right: 150px; */
+        margin-right: 100px;
     }
     /* Exp Section Style */
     
@@ -176,6 +177,9 @@
     /* Media Query-1*/
     
     @media only screen and (max-width: 600px) {
+        body {
+            overflow-x: hidden !important;
+        }
         .top-ban {
             flex-direction: column;
         }
@@ -188,7 +192,7 @@
             margin-top: -30px;
         }
         .half-width {
-            width: 82%;
+            width: 85%;
         }
         .half-width img {
             text-align: center;
@@ -197,16 +201,21 @@
         .dream-to-achieve {
             flex-direction: column-reverse;
         }
+        /* .dream-to-achieve-content {
+            width: 82%;
+            padding: 10;
+            margin: 0;
+        } */
         .experience-container {
             flex-direction: column;
         }
         .left-experience {
-            width: 66%;
+            width: 70%;
             /* width: 75%; */
             margin-top: 30px;
         }
         .right-experience {
-            width: 66%;
+            width: 70%;
             /* width: 75%; */
             margin-top: 30px;
         }
