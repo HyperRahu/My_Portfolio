@@ -1,6 +1,7 @@
     body {
         font-family: 'Poppins', sans-serif;
         margin: 0;
+        overflow-x: hidden;
     }
     
     h1 {
@@ -187,7 +188,7 @@
             margin-top: -30px;
         }
         .half-width {
-            width: 83.6%;
+            width: 82%;
         }
         .half-width img {
             text-align: center;
@@ -200,12 +201,12 @@
             flex-direction: column;
         }
         .left-experience {
-            width: 68%;
+            width: 66%;
             /* width: 75%; */
             margin-top: 30px;
         }
         .right-experience {
-            width: 68%;
+            width: 66%;
             /* width: 75%; */
             margin-top: 30px;
         }
