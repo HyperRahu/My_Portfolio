@@ -1,146 +1,254 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-}
-
-h1 {
-    font-size: 50px;
-}
-
-.orange-color {
-    color: orange;
-}
-
-.top-ban {
-    background-image: url('Image/top-banner.png');
-    background-repeat: no-repeat;
-}
-
-.flexible-container {
-    width: 100%;
-    display: flex;
-    margin-bottom: 100px;
-    justify-content: space-between;
-}
-
-.flexible-container p {
-    text-align: justify;
-}
-
-p {
-    margin-bottom: 35px;
-}
-
-.half-width {
-    width: 50%;
-    padding: 40px;
-}
-
-.half-width img {
-    width: 80%;
-}
-
-.link-button {
-    text-decoration: none;
-    background-image: linear-gradient(to right, #FB6656, orange);
-    padding: 10px 40px;
-    border-radius: 3px;
-    font-size: 18px;
-    color: #fff;
-    font-weight: 700;
-}
-
-.img-area-1 {
-    display: block;
-    text-align: right;
-    margin-top: 40px;
-}
-
-.img-area-2 {
-    display: block;
-    text-align: left;
-    margin-top: 40px;
-}
-
-.dream-to-achieve {
-    background-image: url('Image/dream-bg.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 100%;
-    display: flex;
-    margin-bottom: 100px;
-    justify-content: space-between
-}
-
-.dream-to-achieve p {
-    text-align: justify;
-}
-
-.dream-to-achieve-content {
-    padding-right: 150px;
-}
-
-
-/* Exp Section Style */
-
-.experience-container {
-    display: flex;
-    margin-bottom: 100px;
-}
-
-.left-experience h1,
-.right-experience h1 {
-    font-size: 35px;
-    margin-top: 0;
-}
-
-.left-experience,
-.right-experience {
-    width: 40%;
-    box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
-    padding: 5px 20px 20px 20px;
-    border-radius: 5px;
-    margin: 0px 50px;
-}
-
-.left-experience {
-    border-left: 5px solid;
-    border-image: linear-gradient(tomato, orange);
-    border-image-slice: 1;
-    transition: all .5s;
-}
-
-.left-experience:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 30px 40px -25px orange;
-}
-
-.right-experience {
-    border-left: 5px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
-    transition: all .5s;
-}
-
-.right-experience:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 30px 40px -25px cyan;
-}
-
-.experience-section {
-    background-image: url('Image/exp-bg.png');
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.exp-header {
-    margin-left: 10px;
-}
-
-
-/* Footer style */
-
-footer {
-    text-align: center;
-    margin-bottom: 20px;
-}
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    .orange-color {
+        color: orange;
+    }
+    
+    .top-ban {
+        background-image: url('Image/top-banner.png');
+        background-repeat: no-repeat;
+    }
+    
+    .flexible-container {
+        width: 100%;
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: space-between;
+    }
+    
+    .flexible-container p {
+        text-align: justify;
+    }
+    
+    p {
+        margin-bottom: 35px;
+    }
+    
+    .half-width {
+        width: 50%;
+        padding: 40px;
+    }
+    
+    .half-width img {
+        width: 80%;
+    }
+    
+    .link-button {
+        text-decoration: none;
+        background-image: linear-gradient(to right, #FB6656, orange);
+        padding: 10px 40px;
+        border-radius: 3px;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+    .far {
+        font-size: 14px;
+    }
+    
+    .img-area-1 {
+        display: block;
+        text-align: right;
+        margin-top: 40px;
+    }
+    
+    .img-area-2 {
+        display: block;
+        text-align: left;
+        margin-top: 40px;
+    }
+    
+    .dream-to-achieve {
+        background-image: url('Image/dream-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 100%;
+        display: flex;
+        margin-bottom: 100px;
+        justify-content: space-between
+    }
+    
+    .dream-to-achieve p {
+        text-align: justify;
+    }
+    
+    .dream-to-achieve-content {
+        padding-right: 150px;
+    }
+    /* Exp Section Style */
+    
+    .experience-container {
+        display: flex;
+        margin-bottom: 100px;
+    }
+    
+    .left-experience h1,
+    .right-experience h1 {
+        font-size: 35px;
+        margin-top: 0;
+    }
+    
+    .left-experience,
+    .right-experience {
+        width: 40%;
+        box-shadow: 0px 30px 40px -25px rgba(0, 0, 0, 1);
+        padding: 5px 20px 20px 20px;
+        border-radius: 5px;
+        margin: 0px 50px;
+    }
+    
+    .left-experience {
+        border-left: 5px solid;
+        border-image: linear-gradient(tomato, orange);
+        border-image-slice: 1;
+        transition: all .5s;
+    }
+    
+    .left-experience:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 30px 40px -25px orange;
+    }
+    
+    .right-experience {
+        border-left: 5px solid;
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+        transition: all .5s;
+    }
+    
+    .right-experience:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 30px 40px -25px cyan;
+    }
+    
+    .experience-section {
+        background-image: url('Image/exp-bg.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    .exp-header {
+        margin-left: 10px;
+    }
+    /* Footer style */
+    
+    footer {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .fa {
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        width: 15px;
+        margin: 5px 2px;
+        border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.5;
+    }
+    
+    .fa-facebook {
+        background: #1d53c9;
+        color: white;
+    }
+    
+    .fa-linkedin {
+        background: #094ee2;
+        color: white;
+    }
+    
+    .fa-instagram {
+        background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+        color: white;
+    }
+    /* Media Query-1*/
+    
+    @media only screen and (max-width: 600px) {
+        .top-ban {
+            flex-direction: column;
+        }
+        h1 {
+            text-align: center;
+            font-size: 38px;
+            line-height: 60px;
+        }
+        .H {
+            margin-top: -30px;
+        }
+        .half-width {
+            width: 83.6%;
+        }
+        .half-width img {
+            text-align: center;
+            width: 100%;
+        }
+        .dream-to-achieve {
+            flex-direction: column-reverse;
+        }
+        .experience-container {
+            flex-direction: column;
+        }
+        .left-experience {
+            width: 68%;
+            /* width: 75%; */
+            margin-top: 30px;
+        }
+        .right-experience {
+            width: 68%;
+            /* width: 75%; */
+            margin-top: 30px;
+        }
+        .button-area {
+            text-align: center;
+        }
+    }
+    /* Media Query-2*/
+    
+    @media only screen and (max-width: 875px) {
+        .top-ban {
+            flex-direction: column;
+        }
+        h1 {
+            text-align: center;
+            font-size: 38px;
+            line-height: 70px;
+        }
+        .H {
+            margin-top: -30px;
+        }
+        .half-width {
+            width: 90%;
+        }
+        .half-width img {
+            text-align: center;
+            width: 100%;
+        }
+        .dream-to-achieve {
+            flex-direction: column-reverse;
+        }
+        .experience-container {
+            flex-direction: column;
+        }
+        .left-experience {
+            width: 80%;
+            margin-top: 30px;
+        }
+        .right-experience {
+            width: 80%;
+            margin-top: 30px;
+        }
+        .button-area {
+            text-align: center;
+        }
+    }
