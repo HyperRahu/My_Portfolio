@@ -193,6 +193,7 @@
         }
         .half-width {
             width: 85%;
+            padding: 30px;
         }
         .half-width img {
             text-align: center;
@@ -210,12 +211,12 @@
             flex-direction: column;
         }
         .left-experience {
-            width: 70%;
+            width: 62%;
             /* width: 75%; */
             margin-top: 30px;
         }
         .right-experience {
-            width: 70%;
+            width: 62%;
             /* width: 75%; */
             margin-top: 30px;
         }
